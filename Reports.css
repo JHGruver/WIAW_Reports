@@ -1,0 +1,116 @@
+
+body{
+    height: 100%;
+    width: 100%; /*640px*/
+    padding: 0;
+    margin: 0;
+
+}
+
+
+div.header{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+    padding-bottom: 3%;
+}
+
+span.image{
+    width: 9.375%; /*60/640*/
+    height: 5.2816901408450704225352112676056%; /*60/1136*/
+    margin: 2%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+span.reports{
+    position: absolute;
+    padding-top: 0.88028169014084507042253521126761%;/*10px*/
+    margin-left: 27.34375%; /*175px*/
+    margin-top: 0.88028169014084507042253521126761%;/*10px*/
+    font: 300 3em 'helvetica neue';
+}
+
+div.content{
+    height: 88.732394366197183098591549295775%; /*1008px*/
+    width: 100%;
+}
+div#wheelOne{
+    background-color: darkgray;
+    height: 0;/*????*/
+    padding-bottom: 54.6875%;
+    width: 54.6875%;/*350px*/
+    border-bottom-right-radius: 100%;
+}
+span#companyOne{
+    position: absolute;
+    top: 8.8028169014084507042253521126761%;/*100px*/
+    left: 62.5%;/*400px*/
+    transform: rotateZ(5deg);
+    font: 300 2em 'helvetica neue';
+
+}
+span#companyTwo{
+    position: absolute;
+    top: 24.647887323943661971830985915493%; /*280px*/
+    left: 53.125%;/*340px*/
+    transform: rotateZ(27deg);
+    font: 300 2em 'helvetica neue';
+
+}
+span#companyThree{
+    position: absolute;
+    top: 37.411971830985915492957746478873%;/*425px*/
+    left: 35.15625%;/*225px*/
+    transform: rotateZ(49deg);
+    font: 300 2em 'helvetica neue';
+
+}
+span#companyFour{
+    position: absolute;
+    top: 44.454225352112676056338028169014%;/*505px*/
+    left: 10.625%;/*68px*/
+    transform: rotateZ(70deg);
+    font: 300 2em 'helvetica neue';
+}
+span#Departments{
+    position: absolute;
+    top: 90.22887323943661971830985915493%;/*1025px*/
+    left: 12.5%;/*80px*/
+    font: 300 2em 'helvetica neue';
+}
+span#Locations{
+    position: absolute;
+    top: 74.383802816901408450704225352113%;/*845px*/
+    left: 24.21875%;/*155px*/
+    transform: rotateZ(30deg);
+    font: 300 2em 'helvetica neue';
+}
+span#Tasks{
+    position: absolute;
+    top: 63.820422535211267605633802816901%;/*725px*/
+    left: 49.21875%;/*315px*/
+    transform: rotateZ(50deg);
+    font: 300 2em 'helvetica neue';
+}
+span#Employees{
+    position: absolute;
+    top: 53.25704225352112676056338028169%;/*605px*/
+    left: 68.75%;/*440px*/
+    transform: rotateZ(75deg);
+    font: 300 2em 'helvetica neue';
+}
+div#wheelTwo{
+    background-color: darkgray;
+    height: 350px;/*????*/
+    width: 54.6875%;/*350px*/
+    border-top-left-radius: 100%;
+    position: absolute;
+    top: 65.933098591549295774647887323944%;/*749px*/
+    left: 45.46875%;/*291px*/
+}
+
